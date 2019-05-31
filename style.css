@@ -141,7 +141,14 @@ footer {
   background-color: #765273;
 }
 
-
+@media only screen and (max-width: 815px) {
+  #links ul li {
+  background-color: #614e6e;
+  }
+  nav ul li {
+    font-size: 200%;
+  }
+}
 
 /* 
 Old colors:
