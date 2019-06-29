@@ -57,7 +57,7 @@ h1 {
 }
 
 .whitespace {
-  width: 67%;
+  width: 90%;
   margin: 0 auto;
   background-color: white;
   border: 1px solid #4c7c57;
@@ -84,7 +84,7 @@ h1 {
   padding-top: 40px;
   padding-bottom: 40px;
   color: white;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 #projects a {
@@ -98,8 +98,8 @@ h1 {
   border: 3px solid #4c7c57;
   background-color: #614e6e;
   border-radius: 3px;
-  height: 220px;
-  width: 280px;
+  height: 260px;
+  width: 380px;
   
 }
 
@@ -133,12 +133,6 @@ h1 {
   font-size: 1.5em;
 }
 
-/*
-  border: 3px solid #4c7c57;
-  border-radius: 100%;
-  background-color: #765273;
-*/
-
 #links a {
   color: white;
   text-decoration: none;
@@ -168,6 +162,19 @@ footer a {
 @media only screen and (min-width: 815px) {
   nav ul li {
     font-size: 1.5em;
+  }
+
+  .whitespace {
+    width: 67%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  #projects {
+    font-size: 1.1em;
+  }
+  .project-tile {
+    height: 220px;
+    width: 280px;
   }
 }
 
