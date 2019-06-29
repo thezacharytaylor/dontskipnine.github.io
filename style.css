@@ -60,7 +60,7 @@ h1 {
   width: 67%;
   margin: 0 auto;
   background-color: white;
-  border: 1px solid;
+  border: 1px solid #4c7c57;
   border-radius: 3px;
   padding: 10px 10px 10px 10px;
 }
@@ -106,11 +106,11 @@ h1 {
 .project-tile img {
   width: auto;
   height: 150px;
-  border-bottom: 2px solid #4c7c57;
 }
 
 .project-title {
   font-weight: bold;
+  border-top: 2px solid #4c7c57;
   border-bottom: 2px solid #4c7c57;
 }
 
