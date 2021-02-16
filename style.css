@@ -38,9 +38,14 @@ nav a:hover {
 
 /*Content*/
 
+#main-doc {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #welcome-section {
-  height: 47vh;
-  top: 0;
   color: white;
 }
 
